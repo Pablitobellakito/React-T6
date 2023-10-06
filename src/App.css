@@ -1,0 +1,220 @@
+.App {
+  background-image: url('img/descarga.jpeg'); /* Ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza la página */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para mejorar la legibilidad del texto */
+  padding: 10px;
+  border-radius: 10px; /* Bordes redondeados para el contenedor de texto */
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  font: 1em sans-serif;
+}
+
+.subjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 20px;
+  grid-gap: 10px; /* Agrega una separación de 5px entre las columnas */
+}
+
+.persona {
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  margin: 0 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.integrantes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 0px;
+  grid-gap: 10px; /* Agrega una separación de 5px entre las columnas */
+}
+
+.persona12{
+  background-color: #282c34;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.personapablo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.hero-text h1{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+
+.persona p{
+  text-align: justify;
+}
+
+.persona h2{
+  font-size: 20px;
+}
+
+.objetivos{
+  text-align: justify;
+}
+
+.texto1 h3{
+  font-size: 25px;
+}
+
+.presentacion{
+  text-align: justify;
+  margin: 10px;
+}
+
+/* SECCIÓN SOLO PARA EL NAV-BAR */
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 2px;
+  align-items: center;
+
+}
+
+.navbar-item {
+  margin-right: 15px;
+}
+
+.navbar-link1 {
+  color: rgb(255, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.formulario-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: transparent; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* SECCIÓN SOLO PARA EL NOABRIR */
+
+.advertencia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  padding: 10px;
+  grid-gap: 20px;
+}
+
+.advertencia__titulo {
+  text-align: center; /* Alinea el texto horizontalmente al centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Esto asegura que ocupe toda la altura del contenedor padre */
+}
+
+.advertencia__titulo p{
+  font-size: 14px;
+  margin: 10px;
+  width: 600px; /* Establece el ancho del cuadrado */
+  height: 300px; /* Establece la altura del cuadrado */
+  background-color: rgb(62, 54, 54);
+  border: 5px solid rgb(252, 0, 0); /* Agrega un borde para visualizar el cuadrado */
+  text-align: center; /* Alinea el texto horizontalmente al centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(224, 212, 212);
+  font-weight: bold; /* Hace que el texto sea negrita */
+}
+
+
+/* EXCLUSIVIDAD PARA FOOTER */
+
+.footer {
+  background-color: rgb(79, 74, 74);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon-red {
+  color: rgb(28, 27, 27);
+  margin-right: 10px;
+}
