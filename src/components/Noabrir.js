@@ -1,5 +1,6 @@
 import React from 'react';
 import videoFile from './img/mi-video.mp4'; // Ruta al archivo de video
+import foto from './img/happyhaloween.jpg'
 import { Link } from 'react-router-dom';
 
 const VideoComponent = () => {
@@ -20,8 +21,9 @@ const VideoComponent = () => {
                 Tu navegador no admite el elemento de video.
             </video>
         </div>
-        <Link to="/" className="navbar-link1"><p>No Abrir Aquí</p></Link>
+        <Link to="/" className="navbar-link12"><p>No Abrir Aquí</p></Link>
     </div>
+    
   );
 };
 

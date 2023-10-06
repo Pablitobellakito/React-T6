@@ -1,5 +1,5 @@
 .App {
-  background-image: url('img/descarga.jpeg'); /* Ruta a tu imagen de fondo */
+  background-image: url('img/hero.jpg'); /* Ruta a tu imagen de fondo */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza la página */
@@ -186,11 +186,22 @@
   /* Centrar el texto verticalmente */
 }
 
+.navbar-link12 p{
+  color: red;
+  background-color: rgb(233, 226, 226); /* Fondo blanco predeterminado */
+  border: 1px solid black; /* Borde negro */
+  border-radius: 9px; /* Esquinas redondeadas */
+  padding: 5px 20px; /* Espaciado interno */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  font-weight: bold;
+}
+
 .navbar-item p {
   text-align: center;
   transform: translateY(25%);
 }
 
+/* EXCLUSIVIDAD PARA FORMULARIO */
 
 .formulario-container {
     border: 1px solid #ccc;
@@ -205,6 +216,16 @@
   width: 400px;
   margin: 0 auto;
 }
+
+.containerformulario{
+  background-color: #282c34;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 /* SECCIÓN SOLO PARA EL NOABRIR */
 
@@ -256,4 +277,35 @@
 .fin{
   background-color: rgb(79, 74, 74);
   display: grid;
+}
+
+/* EXCLUSIVIDAD PARA LAS CALCULADORAS */
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; /* Agrega una separación de 5px entre las columnas */
+}
+
+.calculadoras p{
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.calculadora1{
+  background-color: #282c34;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.calculadora2{
+  background-color: #282c34;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
