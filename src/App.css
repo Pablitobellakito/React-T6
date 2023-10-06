@@ -46,11 +46,27 @@
 
 .hero-text {
   background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para mejorar la legibilidad del texto */
-  padding: 10px;
-  border-radius: 10px; /* Bordes redondeados para el contenedor de texto */
-  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
-  font: 1em sans-serif;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.hero-text h1 {
+  /* Centrar el texto horizontalmente */
+  text-align: center;
+  /* Centrar el texto verticalmente */
+  transform: translateY(-50%);
+}
+
+.solopresentacion{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+  display: flex;
 }
 
 .subjects {
@@ -128,48 +144,66 @@
 
 /* SECCIÓN SOLO PARA EL NAV-BAR */
 
-.navbar {
-  background-color: #282c34;
-  color: white;
-  margin: 10px;
+.navbar-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .navbar-list {
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  margin: 2px;
-  align-items: center;
-
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-item {
-  margin-right: 15px;
+  margin-right: 20px; /* Espaciado de 20px entre elementos */
+  background-color: rgb(233, 226, 226); /* Fondo blanco predeterminado */
+  border: 1px solid black; /* Borde negro */
+  border-radius: 9px; /* Esquinas redondeadas */
+  padding: 5px 20px; /* Espaciado interno */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  /* Centrar el texto horizontalmente */
+  text-align: center;
+  /* Centrar el texto verticalmente */
+
 }
 
-.navbar-link1 {
-  color: rgb(255, 0, 0);
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.navbar-item:hover {
+  background-color: #ff0000; /* Fondo más claro cuando se pasa el cursor */
+}
+
+.navbar-item:active {
+  background-color: #e5e5e5; /* Fondo aún más claro cuando se hace clic */
 }
 
 .navbar-link {
-  color: white;
   text-decoration: none;
-  margin: 20px;
-  border-radius: 5px;
+  color: black; /* Color del texto del enlace */
+  /* Centrar el texto horizontalmente */
+  text-align: center;
+  /* Centrar el texto verticalmente */
 }
+
+.navbar-item p {
+  text-align: center;
+  transform: translateY(25%);
+}
+
 
 .formulario-container {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
+    padding: 50px;
     background-color: transparent; 
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.formulario-container input,
+.formulario-container textarea {
+  width: 400px;
+  margin: 0 auto;
 }
 
 /* SECCIÓN SOLO PARA EL NOABRIR */
@@ -217,4 +251,9 @@
 .icon-red {
   color: rgb(28, 27, 27);
   margin-right: 10px;
+}
+
+.fin{
+  background-color: rgb(79, 74, 74);
+  display: grid;
 }

@@ -4,7 +4,7 @@ import { faCss3, faFacebook, faFontAwesome, faGithub, faHtml5, faLinkedin, faRea
 
 const Footer = () => {
   return (
-
+    <>
       <div className='footer'>
         <div className='red-Pablo'>
           <p>¡Contacta a Pablo!</p>
@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
         <div className='red-Alfonso'>
-        <p>Redes Sociales de Alfonso</p>
+        <p>¡Contacta a Alfonso!</p>
           <a href='https://www.linkedin.com/in/alfonsopintom/' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faLinkedin} size='2x' className='icon-red' />
           </a>
@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </div>
         <div className='red-Jorge'>
-          <p>Redes Sociales de Jorge</p>
+          <p>¡Contacta a Jorge!</p>
           <a href='https://www.linkedin.com/in/alfonsopintom/' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faLinkedin} size='2x' className='icon-red' />
           </a>
@@ -42,14 +42,18 @@ const Footer = () => {
           <FontAwesomeIcon icon={faLinkedin} size='2x' className='icon-red' />
           </a>
         </div>
-        <div className='red-Pablo'>
-          <p>Agradecimientos!</p>
+        <div className='red-agradecimientos'>
+          <p>¡Agradecimientos!</p>
           <FontAwesomeIcon icon={faCss3} size='2x' className='icon-red' />
           <FontAwesomeIcon icon={faFontAwesome} size='2x' className='icon-red' />
           <FontAwesomeIcon icon={faHtml5} size='2x' className='icon-red' />
           <FontAwesomeIcon icon={faReact} size='2x' className='icon-red' />
         </div>
       </div>
+      <div className='fin'>
+        <p>¡Gracias por visitar nuestra página! todos los derechos están resevados</p> 
+      </div>
+    </>
   );
 };
 

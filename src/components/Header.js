@@ -1,18 +1,15 @@
 import React from 'react';
 import Navbar from './nav-bar';
-import miGif from './img/skeletor.gif'; // Importa el GIF
 
 const Header = () => {
   return (
     <header>
-      <Navbar /> {/* Incluye el componente Navbar */}
       <div className="hero-text">
-        <div className="persona">
-          <img src={miGif} alt="Mi GIF" /> {}
+        <div className='solopresentacion'>
+          <h1>Bienvenido a la página de los Photoshopers</h1>
         </div>
-        <h1>Bienvenido</h1>
-        <div className="persona">
-          <img src={miGif} alt="Mi GIF" /> {}
+        <div className='solonavbar'>
+          <Navbar /> {}
         </div>
       </div>
     </header>

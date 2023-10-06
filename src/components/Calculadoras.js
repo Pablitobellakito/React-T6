@@ -2,6 +2,7 @@ import React from "react";
 
 const Calculadoras = () => {
   return (
+    <>
     <header>
       <div className="calculadoras">
         <h1>Nuestras complejas calculadoras!</h1>
@@ -68,6 +69,7 @@ const Calculadoras = () => {
         </p>
       </div>
     </header>
+    </>
   );
 };
 

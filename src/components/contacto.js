@@ -3,6 +3,7 @@ import React from 'react';
 const Contacto = () => {
   return (
     <div className='formulario-container'>
+      <p>En caso que quieras comunicarte con alguien de forma personal, puedes presionar en la parte final de la página los links disponibles que tenemos para cada uno de los integrantes presentes</p>
       <form className="container mt-4">
       <fieldset>
         <legend>Completa el formulario</legend>
