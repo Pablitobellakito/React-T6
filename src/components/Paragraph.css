@@ -1,0 +1,6 @@
+.persona {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color (white) */
+  padding: 20px; /* Add some padding for spacing */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
